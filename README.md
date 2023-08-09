@@ -45,3 +45,5 @@
 | age | individual age | | 수치형(이산형): 연령 or 범주형(순서형) : 연령대별,세분화 분석 일때 |
 | Mileages | mileage or usage data | | 수치형(이산형),특정한 마일리지값을 나타내는 숫자 값이고 연속적인 값이 아님 |
 </details>
+
+
