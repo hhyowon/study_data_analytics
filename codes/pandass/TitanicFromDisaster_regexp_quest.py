@@ -1,6 +1,6 @@
 # Quest
 # - Name 변수에서 성씨만 가져오기
-# - hint : 성씨 컬럼에 Nan 없어야 함
+# - hint : 결혼유무 컬럼에 Nan 없어야 함
 # 결혼유무 : apply()
 # 성씨 : extract() 
 
@@ -30,11 +30,10 @@ def extract_status(name):
         return '미혼 (남성)'
     elif 'Miss.' in name:
         return '미혼 (여성)'
-    else:
-        return '기타'
 # pattern_married = r'(?:Mrs\.|Mr\.|Miss\.)'   
 
 
 df_extarct['Status'] = df_TFD['Name'].apply(extract_status)
+df_extarct=df_extarct.dropna()    #결혼유무 컬럼에 Nan 없애기 
 
 print(df_extarct[['Name','Last_Name','Status']])
