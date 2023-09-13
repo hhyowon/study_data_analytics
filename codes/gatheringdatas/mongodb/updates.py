@@ -10,7 +10,10 @@ documents = [
     {"name": "Bob", "age": 30, "city": "Busan"},
     {"name": "Charlie", "age": 35, "city": "Incheon"}
 ]
-collection.insert_many(documents)
+
+# collection.insert_many(documents)
 
 # 하나만 update
-collection.updateOne({"name":"Alice"},{"$set":{"age":26}});
+collection.update_One({"name":"Alice"},{"$set":{"age":26}})
+
+
