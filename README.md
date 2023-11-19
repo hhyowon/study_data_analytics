@@ -60,3 +60,9 @@
 |Selenium| 네이버 로그인하기 로그인 후 메일로 이동하기 |[naver_login](./codes/gatheringdatas/seleniums/naver_login_quest.ipynb) |
 |Selenium| 코리안즈의 게시물 번호, 제목, 게시날짜, 조회수, 상세 채널 리스트(채널명, 링크) 가져오기 , 범위 : 1page ~ 10page |[koreanz_xyz](./codes/gatheringdatas/seleniums/koreanz_xyz_quest.ipynb.ipynb) |
 |NLP| 머신러닝 이용 감성 분석,영화 댓글 학습 ( 0:부정, 1:긍정 ) |[navermovierating_mechinelearning](./codes/gatheringdatas/NLP/navermovierating_mechinelearning_quest.ipynb) |
+
+
+
+### ✅ 사용기술
+<img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/mongoDB-47A248?style=for-the-badge&logo=MongoDB&logoColor=white">
