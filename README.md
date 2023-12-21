@@ -19,21 +19,54 @@
 |loops_complete| googlestore 에서 healthcare 최종 |[heathcare_loops_complete](./codes/gatheringdatas/seleniums/googlestore_heathcare_loops_complete.ipynb) | -- |
 
  
-### ✔ Mongodb 
-- 5천개 이상의 데이터를 하나씩 for문을 돌려서 새로운 db를 row에 추가하는 것은 무리가 가는 코드이므로 mongodb를 사용하여 한번에 추가해 새로운 디비를 완성하는게 더 효율적이다. 
+### ✔ MongoDB
+ MongoDB란 : 
+- NoSQL 데이터베이스 중 하나로, 특히 문서 지향적(Document-Oriented) 데이터베이스
+-  데이터는 BSON(Binary JSON) 형태로 저장
+-  확장성
+-  대량의 데이터를 처리하고 저장할 수 있으며, 데이터의 분산 처리가 가능하기 때문에 많은 양의 데이터를 효율적으로 관리 가능
 
 | 분류 | 주요 내용 | 작성코드 | 
 | -- | -- | -- | 
-| findwithpandas | 브라우저 창 띄우기  | [findwithpandas](./codes/gatheringdatas//mongodb/findwithpandas.ipynb) | 
+| findwithpandas | 브라우저 창 띄우기  | [findwithpandas](./codes/gatheringdatas//mongodb/findwithpandas.ipynb) |
+
+- 5천개 이상의 데이터를 하나씩 for문을 돌려서 새로운 db를 row에 추가하는 것은 무리가 가는 코드이므로 mongodb를 사용하여 한번에 추가해 새로운 디비를 완성하는게 더 효율적이기 때문에 사용함
+  
 
 
 ## ✅ NLP (자연어 처리)
+ - 검색 엔진, 기계 번역, 감성 분석 등 다양한 분야에서 활용하기 위하여 자연어 처리를 함 
 
-## ✅ Pandass
-
+## ✅ Pandas
+- 대량의 데이터를 효율적으로 처리하고 가공
+-  CSV, 텍스트, Excel, SQL 데이터베이스 등 다양한 형태의 데이터를 쉽게 분석 가능
+  
 ## ✅ Visuallizations
+- 파이썬에서 Matplotlib, Seaborn, Plotly 등의 라이브러리를 사용하여 다양한 시각화 생성
+  
+## ✅ DDA
+### ✔ Descriptive Data Analysis  
+- 묘사적 데이터 분석
+- 수집된 데이터를 이해하고 요약하는 과정으로 데이터의 현재 상태를 정확하게 파악하고, 데이터의 중심 경향, 분포, 분산 등을 확인하는데 사용
+- 주요 사용되는 통계량 :  평균, 중앙값, 최빈값, 범위, 분산, 표준편차, 백분위수 등
+  
+| 분류  | 작성코드 | 
+| -- | -- | 
+| DDA 선결 | [mixed_Normal](codes/DDA/RecurrenceOfSurgery_DDA_quests.ipynb)
+
+
+## ✅ EDA
+### ✔ Exploratory Data Analysis 
+- 탐색적 데이터 분석
+- 수데이터의 패턴, 이상치, 변수 간의 관계 등을 파악하여 분석 방향 설정하는 중요한 역할
+- 가능성이 큰 X-Y 관계 가설 도출
+- Matplotlib, Seaborn 등의 라이브러리를 활용
 
 ## ✅ CDA
+### ✔Confirmatory Data Analysis
+- 확증적 데이터 분석
+- 미리 설정된 가설이나 이론을 데이터를 통해 검증하는 분석 방법
+- p-value 기준 의사결정
 
 | 분류  | 작성코드 | 
 | -- | -- | 
@@ -42,15 +75,6 @@
 | mixed_Normal CDA  | [mixed_Normal](codes/CDA/TypeOfContractChannel_CDA_mixed_Normal.ipynb) | 
 | mixed_unNormal CDA  | [mixed_unNormal](codes/CDA/TypeOfContractChannel_CDA_mixed_unNormal.ipynb) | 
 | singlevalue CDA  | [singlevalue](codes/CDA/TypeOfContractChannel_CDA_singlevalue.ipynb) | 
-
-
-## ✅ DDA
-| 분류  | 작성코드 | 
-| -- | -- | 
-| DDA 선결 | [mixed_Normal](codes/DDA/RecurrenceOfSurgery_DDA_quests.ipynb)
-
-
-## ✅ EDA
 
 
 ## 📑 Quest 
