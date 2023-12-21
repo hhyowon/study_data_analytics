@@ -20,7 +20,6 @@
 
  
 ### ✔ MongoDB
- MongoDB란 : 
 - NoSQL 데이터베이스 중 하나로, 특히 문서 지향적(Document-Oriented) 데이터베이스
 -  데이터는 BSON(Binary JSON) 형태로 저장
 -  확장성
@@ -29,26 +28,58 @@
 | 분류 | 주요 내용 | 작성코드 | 
 | -- | -- | -- | 
 | findwithpandas | 브라우저 창 띄우기  | [findwithpandas](./codes/gatheringdatas//mongodb/findwithpandas.ipynb) |
+| Insert  | insert Many with pandas  | [insertManywithpandas](./codes/gatheringdatas/mongodb/insertManywithpandas.ipynb) |
 | Updates  | mongoDB Updates  | [updates](./codes/gatheringdatas/mongodb/updates.py) |
+| Updates with pandas  | mongoDB Updates  | [updatewithpanadas](./codes/gatheringdatas/mongodb/updatewithpanadas.ipynb) |
 
 
-- 5천개 이상의 데이터를 하나씩 for문을 돌려서 새로운 db를 row에 추가하는 것은 무리가 가는 코드이므로 mongodb를 사용하여 한번에 추가해 새로운 디비를 완성하는게 더 효율적이기 때문에 사용함
+->  5천개 이상의 데이터를 하나씩 for문을 돌려서 새로운 db를 row에 추가하는 것은 무리가 가는 코드이므로 mongodb를 사용하여 한번에 추가해 새로운 디비를 완성하는게 더 효율적이기 때문에 사용함
   
 
 
 ## ✅ NLP (자연어 처리)
- - 검색 엔진, 기계 번역, 감성 분석 등 다양한 분야에서 활용하기 위하여 자연어 처리를 함 
+ - 검색 엔진, 기계 번역, 감성 분석 등 다양한 분야에서 활용하기 위하여 자연어 처리를 함
+ - https://radimrehurek.com/gensim/apiref.html
+: 파이썬에서 자연어 처리하는데 많은 역할 사용
+- 한글형태소 분석기 refer  : https://konlpy-ko.readthedocs.io/ko/v0.6.0/
+
+  
+| 분류 | 주요 내용 | 작성코드 | 
+| -- | -- | -- |
+| NLP | wordcloud_simple 기본| [wordcloud_simple](./codes/NLP/wordcloud_simple.ipynb) | 
+| NLP | 자연어 처리 위한 단어 생성| [wordcloud_simple_regex](./codes/NLP/wordcloud_simple_regex.ipynb) | 
+| NLP | 자연어 처리 위한 형태분석기 적용| [wordcloudwithmecab](./codes/NLP/wordcloudwithmecab.ipynb) | 
+| LDA | LDA_sklearn | [LDA_sklearn](./codes/NLP/LDA_sklearn.ipynb) | 
+| LDA | LDA_gensim | [LDA_gensim](./codes/NLP/LDA_gensim.ipynb) | 
+| morpheme| 한글 형태소 분석기 | [morpheme_analyzer](./codes/NLP/morpheme_analyzer.ipynb) | 
+| morpheme| 한글 형태소 분석기 | [morpheme_analyzer](./codes/NLP/morpheme_analyzer.ipynb) | 
+| 감성분석| 감성 사전 의한 감성분석 | [entiment_analyze_dictionary](./codes/NLP/sentiment_analyze_dictionary.ipynb) | 
+| 감성분석| 감성 사전 의한 감성분석 | [sentiment_analyze_mechinlearning](./codes/NLP/sentiment_analyze_mechinlearning.ipynb) | 
+
 
 ## ✅ Pandas
 - 대량의 데이터를 효율적으로 처리하고 가공
 -  CSV, 텍스트, Excel, SQL 데이터베이스 등 다양한 형태의 데이터를 쉽게 분석 가능
+
+| 분류 | 주요 내용 | 작성코드 | 
+| -- | -- | -- |
+| preprocess | 전처리 특성 공학 기법 사용| [preprocess](./codes/pandass/preprocess.ipynb) | 
+| TimeSeries | DeliveryList_TimeSeries| [DeliveryList_TimeSeries](./codes/pandass/DeliveryList_TimeSeries.ipynb) | 
+| TimeSeries | ResurrenceOfSurgery_TimeSeries| [ResurrenceOfSurgery_TimeSeries](./codes/pandass/ResurrenceOfSurgery_TimeSeries.ipynb) | 
   
 ## ✅ Visuallizations
 - 시각화 :  파이썬에서 Matplotlib, Seaborn, Plotly 등의 라이브러리를 사용하여 다양한 시각화 생성
   
-| 분류 | 주요 내용 | 작성코드 | 
-| -- | -- | -- | 
-| 시각화  |   | [findwithpandas(./codes/gatheringdatas//mongodb/findwithpandas.ipynb)] |
+| 분류 | 주요 내용 | 작성코드 | 라이브러리 |
+| -- | -- | -- | -- | 
+| 기본  |  simple Visuallizations | [simple](./codes/visuallizations/simple.ipynb) | matplotlib |
+| scatter |  scatter plot  | [classfications_scatter](./codes/visuallizations/classfications_scatter.ipynb) | matplotlib |
+| UsingCharts | 목표변수와 설명변수 관계 Visuallizations   | [UsingCharts_TypeOfContractChannel](./codes/visuallizations/UsingCharts_TypeOfContractChannel.ipynb) | matplotlib,seaborn |
+
+
+
+
+
 
 ## ✅ DDA
 ### ✔ Descriptive Data Analysis  
@@ -89,7 +120,9 @@
 |Selenium| 네이버 로그인하기 로그인 후 메일로 이동하기 |[naver_login](./codes/gatheringdatas/seleniums/naver_login_quest.ipynb) |
 |Selenium| 코리안즈의 게시물 번호, 제목, 게시날짜, 조회수, 상세 채널 리스트(채널명, 링크) 가져오기 , 범위 : 1page ~ 10page |[koreanz_xyz](./codes/gatheringdatas/seleniums/koreanz_xyz_quest.ipynb.ipynb) |
 |NLP| 머신러닝 이용 감성 분석,영화 댓글 학습 ( 0:부정, 1:긍정 ) |[navermovierating_mechinelearning](./codes/gatheringdatas/NLP/navermovierating_mechinelearning_quest.ipynb) |
-
+|Visuallizations| 계약차트 용도별 시각화 | [UsingCharts_TypeOfContractChannel](./codes/visuallizations/UsingCharts_TypeOfContractChannel_quest.ipynb) |
+|Pandas | TimeSeries |  [ResurrenceOfSurgery_TimeSeries](./codes/pandass/ResurrenceOfSurgery_TimeSeries_quest.ipynb) |
+|Pandas | TimeSeries_apply |  [ResurrenceOfSurgery_TimeSeries_apply](./codes/pandass/ResurrenceOfSurgery_TimeSeries_apply_quest.ipynb) |
 
 ### 📚 사용기술
 <div>
