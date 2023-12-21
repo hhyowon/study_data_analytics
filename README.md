@@ -29,6 +29,8 @@
 | 분류 | 주요 내용 | 작성코드 | 
 | -- | -- | -- | 
 | findwithpandas | 브라우저 창 띄우기  | [findwithpandas](./codes/gatheringdatas//mongodb/findwithpandas.ipynb) |
+| Updates  | mongoDB Updates  | [updates](./codes/gatheringdatas//mongodb/updates.ipynb) |
+
 
 - 5천개 이상의 데이터를 하나씩 for문을 돌려서 새로운 db를 row에 추가하는 것은 무리가 가는 코드이므로 mongodb를 사용하여 한번에 추가해 새로운 디비를 완성하는게 더 효율적이기 때문에 사용함
   
