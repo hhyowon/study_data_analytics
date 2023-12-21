@@ -42,8 +42,12 @@
 -  CSV, 텍스트, Excel, SQL 데이터베이스 등 다양한 형태의 데이터를 쉽게 분석 가능
   
 ## ✅ Visuallizations
-- 파이썬에서 Matplotlib, Seaborn, Plotly 등의 라이브러리를 사용하여 다양한 시각화 생성
+- 시각화 :  파이썬에서 Matplotlib, Seaborn, Plotly 등의 라이브러리를 사용하여 다양한 시각화 생성
   
+| 분류 | 주요 내용 | 작성코드 | 
+| -- | -- | -- | 
+| 시각화  |   | [findwithpandas(./codes/gatheringdatas//mongodb/findwithpandas.ipynb)] |
+
 ## ✅ DDA
 ### ✔ Descriptive Data Analysis  
 - 묘사적 데이터 분석
@@ -52,8 +56,7 @@
   
 | 분류  | 작성코드 | 
 | -- | -- | 
-| DDA 선결 | [mixed_Normal](codes/DDA/RecurrenceOfSurgery_DDA_quests.ipynb)
-
+| DDA 선결 | [mixed_Normal](codes/DDA/RecurrenceOfSurgery_DDA_quests.ipynb) |
 
 ## ✅ EDA
 ### ✔ Exploratory Data Analysis 
@@ -86,7 +89,11 @@
 |NLP| 머신러닝 이용 감성 분석,영화 댓글 학습 ( 0:부정, 1:긍정 ) |[navermovierating_mechinelearning](./codes/gatheringdatas/NLP/navermovierating_mechinelearning_quest.ipynb) |
 
 
-
-### ✅ 사용기술
+### 📚 사용기술
+<div>
 <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white">
 <img src="https://img.shields.io/badge/mongoDB-47A248?style=for-the-badge&logo=MongoDB&logoColor=white">
+<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> 
+<img src="https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white">
+<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+</div>
